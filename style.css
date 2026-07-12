@@ -1,3 +1,226 @@
-h1{
-    border: 1px solid green;
+/* Commm Design */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn {
+    padding: 15px 30px;
+    border: none;
+    color: #ffffff;
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.outlin-btn {
+    padding: 15px 30px;
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Nav bar */
+.main-header {
+    background-color: #f8ecec;
+    padding: 10px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: 600;
+}
+
+.special {
+    color: #fd6e0a;
+}
+
+.navbar h2 {
+    font-size: 2rem;
+}
+
+/* hero seciton */
+
+.hero-section {
+    background-color: #FFF8F3;
+
+}
+
+.hero {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.hero-p1 {
+    font-size: 2rem;
+}
+
+.hero-content h2 {
+    font-size: 65px;
+}
+
+.hero-descripiton {
+    font-size: 20px;
+    color: #757575;
+    padding: 15px 0;
+}
+
+/* About Sectoin */
+.about-section {
+    margin-top: 100px;
+}
+
+.about {
+    background-color: #FFF8F3;
+    padding: 150px;
+    border-radius: 10px;
+}
+
+.about-section h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about-descripiton {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about-details {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* what i do  */
+
+.what-i-do {
+    margin-top: 100px;
+}
+
+.what-i-do-content h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.what-i-do-content p {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.what-i-do-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.what-i-do-card {
+    padding: 26px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(228, 227, 227);
+}
+
+.what-i-do-card h5 {
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.what-i-do-card p {
+    color: #757575;
+    line-height: 1.5;
+}
+
+/* Summary Section */
+.summary-section {
+    margin-top: 100px;
+}
+
+.summary-section h3 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.summary-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-child {
+    padding: 20px;
+}
+
+.summary-child h5 {
+    color: #474747;
+    font-size: 25px;
+    padding: 25px 0px;
+}
+
+.summary-child h6 {
+    color: #474747;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.varsity {
+    color: #757575;
+    font-size: 17px;
+    padding-bottom: 15px;
+
+}
+
+.summary-child p {
+    color: #757575;
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+
+.summary-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Gallary Section */
